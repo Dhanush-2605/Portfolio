@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+.header {
+  width: 100%;
+  background: rgb(216, 216, 216);
+  justify-content: space-between;
+
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 0%;
+  animation: nav-animation 300ms ease-out;
+}
+.new_nav {
+  background-color: red;
+}
+nav {
+  height: 5rem;
+  display: flex;
+  /* background: rgb(216,216, 216);  */
+  /* background-color: aqua; */
+  flex-wrap: wrap;
+  width: 100%;
+
+  align-items: center;
+
+  justify-content: space-around;
+}
+.logo {
+  margin-left: 1rem;
+
+  text-transform: uppercase;
+}
+.ul_items {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+.ul_items li {
+  /* margin-right:5rem; */
+}
+.ul_items li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  justify-content: space-between;
+  /* background-color: red; */
+  padding: 10px;
+}
+
+.ul_items li a:hover {
+  border-bottom: 3px solid black;
+}
+.brand {
+  margin-left: 100px;
+  color: black;
+}
+
+.navbar_new {
+  display: flex;
+  align-items: center;
+  background-color: red;
+  justify-content: space-between;
+}
+.links {
+
+
+  margin-left: 700px;
+  align-items: center;
+}
+.collapse a {
+  background-color: red;
+}
+.nav-item {
+  background-color: red;
+}
+.links a {
+  font-family: "Roboto", sans-serif;
+  font-color: red;
+  justify-content: space-around;
+}
+.toggle{
+    background-color: gray;
+}
+
+a {
+  /* background-color: black; */
+  font-size: large;
+}
+
+@media screen and (max-width: 900px) {
+  .links {
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .brand {
+    margin-left: 30px;
+  }
+}
+@keyframes nav-animation {
+  from {
+    transform: translateY(-10%);
+  }
+  to {
+    transform: translateY(10%);
+    transition: 1s;
+  }
+}
