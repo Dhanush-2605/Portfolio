@@ -16,7 +16,7 @@ const Bottom = () => {
   return (
     <footer className={classes.sticky_footer}>
     <div className={classes.connect}>
-    <div>
+    <div className={classes.links}>
       <a href="https://www.linkedin.com/in/dhanush-vellasiri-9a495021b/">
         <LinkedInIcon style={{fontSize:"40px"}} />
         
