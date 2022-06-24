@@ -3,9 +3,9 @@ import Contact from "./components/contact/contact";
 import { Fragment } from "react";
 import Details from "./components/details/Details";
 import Projects from "./components/projects/projects";
+import Bottom from "./components/Bottom/bottom";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/layout";
-
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
           </Routes>
         </Layout>
+        <Bottom />
       </div>
     </Fragment>
   );
