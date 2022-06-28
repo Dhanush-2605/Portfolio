@@ -2,6 +2,7 @@
   /* padding: 50px; */
 }
 
+
 .container {
   font-family: "Roboto", sans-serif;
   /* background-color:rgb(216,216,216); */
@@ -11,6 +12,21 @@
   flex-direction: column;
   align-items: center;
 }
+.line{
+  display: flex;
+  align-items: center;
+  /* width: 50%; */
+  justify-content: center;
+
+}
+.divider{
+  width: 500px;
+  height:3px;
+
+  display: inline-block;
+  background-color: gray;
+}
+
 
 .text {
   margin: 10px;
@@ -65,15 +81,15 @@
 
 } */
 
-@media all and (max-width:360px) {
-  .text{
-    margin: auto;
-    color: red;
+@media all and (max-width:400px) {
+  .line{
+    /* width: 70%; */
+
   }
-  .image{
-    width: 90vw;
-    background-color: red;
+  .divider{
+    width:200px;
   }
+
 
   
 }

@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+ 
 }
 
 html {
@@ -11,11 +12,10 @@ html {
 }
 
 body {
-  /* margin: 0; */
-  /* padding: 10px; */
+
   box-sizing: border-box;
 
-  /* background-color: #3f3f3f; */
+
 }
 
 .app {

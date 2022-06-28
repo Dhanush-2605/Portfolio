@@ -13,6 +13,21 @@
 
   padding: 100px;
 }
+
+.line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 180px;
+  /* width: 50%; */
+  justify-content: center;
+}
+.divider {
+  width: 500px;
+  height: 3px;
+
+  display: inline-block;
+  background-color: gray;
+}
 .top {
   background-color: aqua;
   display: flex;
@@ -74,6 +89,12 @@
 }
 .detail h1 {
   /* color:rgb(208, 21, 21) */
+  font-weight: 500;
+}
+.detail p {
+  font-weight: 400;
+  font-size: 25px;
+  /* font-style: italic; */
 }
 
 img {
@@ -108,5 +129,10 @@ img {
 
   .image {
     margin-left: -65px;
+  }
+}
+@media all and (max-width: 400px) {
+  .divider {
+    width: 200px;
   }
 }

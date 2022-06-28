@@ -12,6 +12,22 @@
 
   color: whitesmoke;
 }
+.line{
+  display: flex;
+  align-items: center;
+  /* width: 50%; */
+  justify-content: center;
+
+}
+.divider{
+  width: 500px;
+  height:3px;
+
+  display: inline-block;
+  background-color: gray;
+}
+
+
 alert {
   opacity: 1;
   transition: opacity 0.5s;

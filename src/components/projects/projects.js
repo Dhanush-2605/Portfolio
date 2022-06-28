@@ -6,47 +6,37 @@ import classes from "./projects.module.css";
 const Projects = () => {
   return (
     <Fragment>
-      <section className={classes.project_body}>
-        <header className={classes.heading}>
-          <div className={classes.heading_div}>
-            <h1>My Work</h1>
-          </div>
-        </header>
-        <section className={classes.project_container}>
-          <div className={classes.card_container}>
-            {ProjectDetails.map((data) => {
-              return (
-                <Card className={classes.card_div} style={{ width: "18rem" }}>
-                  <div className={classes.image}>
-                    <img src={data.image} alt=""></img>
+      <div className={classes.title}>
+        <h1>My Work</h1>
+      </div>
+      <div className={classes.container}>
+        <div className={classes.wrapper}>
+          {ProjectDetails.map((data) => {
+            return (
+              <div className={classes.flip_card}>
+                <div className={classes.flip_card_inner}>
+                  <div className={classes.flip_card_front}>
+                    <img src={data.image} alt="Avatar" />
                   </div>
 
-                  <Card.Body>
-                    <Card.Title className={classes.title}>
-                      {data.title}
-                    </Card.Title>
-                    <div className={classes.content}>
-                      <Card.Text>{data.content}</Card.Text>
-                    </div>
-                    <div className={classes.button}>
-                      {/* <div> */}
-                      <button size="sm" variant="primary">
+                  <div className={classes.flip_card_back}>
+                    <h1>{data.title}</h1>
+                    <p>{data.content}</p>
+                    <div>
+                      <button>
                         <a href={data.liveWebsite}>Live Website</a>
                       </button>
-                      {/* </div> */}
-                      {/* <div> */}
-                      <button size="sm" variant="success">
+                      <button>
                         <a href={data.gitHub}>Source Code</a>
                       </button>
-                      {/* </div>  */}
                     </div>
-                  </Card.Body>
-                </Card>
-              );
-            })}
-          </div>
-        </section>
-      </section>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
     </Fragment>
   );
 };

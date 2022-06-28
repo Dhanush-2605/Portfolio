@@ -57,7 +57,7 @@
 }
 .detail p {
   border-top: 2px solid gray;
-  color: gray;
+  /* color: gray; */
   width: 70%;
   text-transform: lowercase;
 }

@@ -4,6 +4,11 @@ import classes from "./skills.module.css";
 const Skills = () => {
   return (
     <Fragment>
+         <div className={classes.line}>
+    {/* <p className="border"/> */}
+    <span className={classes.divider}></span>
+    </div>
+
       <section className={classes.section}>
         <div className={classes.container}>
           <div className={classes.text}>
