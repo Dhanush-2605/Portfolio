@@ -16,11 +16,14 @@ const Projects = () => {
               <div className={classes.flip_card}>
                 <div className={classes.flip_card_inner}>
                   <div className={classes.flip_card_front}>
+                  <h1>{data.title}</h1>
+                  <div className={classes.image}>
                     <img src={data.image} alt="Avatar" />
+                    </div>
                   </div>
 
                   <div className={classes.flip_card_back}>
-                    <h1>{data.title}</h1>
+                    
                     <p>{data.content}</p>
                     <div>
                       <button>

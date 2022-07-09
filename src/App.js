@@ -19,7 +19,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
           </Routes>
         </Layout>
-        {/* <Bottom /> */}
+        <Bottom />
       </div>
     </Fragment>
   );

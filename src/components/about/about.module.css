@@ -87,6 +87,24 @@
   margin-bottom: 120px;
   width: 50%;
 }
+
+
+.detail h1{
+  animation: content-load 600ms ease-in 300ms;
+  animation-fill-mode: forwards;
+  transform: translateY(-20px);
+  opacity: 0;
+}
+
+.detail p{
+  animation: content-load 600ms ease-in 200ms;
+  animation-fill-mode: forwards;
+  transform: translateY(-20px);
+  opacity: 0;
+}
+
+
+
 .detail h1 {
   /* color:rgb(208, 21, 21) */
   font-weight: 500;
@@ -135,4 +153,22 @@ img {
   .divider {
     width: 200px;
   }
+}
+
+
+@keyframes content-load {
+  0%{
+    transform:translateY(-20px);
+    opacity: 0;
+
+
+  }
+  
+
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+
+  }
+  
 }

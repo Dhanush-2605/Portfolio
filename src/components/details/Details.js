@@ -19,12 +19,14 @@ const Details = () => {
               took a galley of typ
             </p>
             <Button style={{ backgroundColor: "#3500D3" }} size="sm">
-              <a href="#about">About Me</a>
+              <a href="#about" style={{textDecoration:"none",color:"white"}}>About Me</a>
             </Button>
           </div>
           <div className={classes.image}>
             <img
               src="https://images.unsplash.com/photo-1545665277-5937489579f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+              // src="https://img.freepik.com/premium-vector/web-development-programming-languages-css-html-it-ui-programmer-cartoon-character-developing-website-coding-flat-illustration-banner_128772-898.jpg?w=1380"
+              // src="https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg?t=st=1657342905~exp=1657343505~hmac=2c11ce2f194750c6bf69969f5b19d291e8bff2010b75d909fb08f9b5cd21a85e&w=1380"
               alt="dhanush"
             />
           </div>
