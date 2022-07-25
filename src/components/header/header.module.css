@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
 
 .container {
-  /* background-color: rebeccapurple; */
-  /* background-color: lightgrey; */
+
   background-color: #282828;
   height: 80px;
-  animation: nav-load 500ms ease-in ;
+
 }
 
 .wraper {
@@ -46,14 +45,3 @@ a{
   }
 }
 
-@keyframes nav-load {
-  0%{
-    transform: translateY(-100%);
-
-  }
-  
-  100%{
-    transform: translateY(0%);
-
-  }
-}
