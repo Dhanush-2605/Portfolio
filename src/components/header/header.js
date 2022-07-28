@@ -1,11 +1,7 @@
-import { Fragment } from "react";
-import { MenuOutlined } from "@mui/icons-material";
 import { NavLink } from "react-router-dom";
 import classes from "./header.module.css";
-import bootstrap from "bootstrap";
+
 import CodeSharpIcon from "@mui/icons-material/CodeSharp";
-import { rgbToHex } from "@mui/material";
-import React, { Component } from "react";
 
 const NavBar = () => {
   return (
