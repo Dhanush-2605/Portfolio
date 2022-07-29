@@ -9,14 +9,16 @@ const NavBar = () => {
       <div className={classes.wraper}>
         <div className={classes.left}>
           <div
-            className={classes.logo}
+            className={classes.name}
             data-aos="fade-down"
-            data-aos-delay="100"
+            data-aos-delay="50"
             data-aos-duration="1000"
           >
-            <a href="/" style={{ color: "#3500d3" }}>
+            {/* <a href="/" style={{ color: "#3500d3" }}>
+
               <CodeSharpIcon sx={{ fontSize: "50px" }} />
-            </a>
+            </a> */}
+            <h2>Dhanush .</h2>
           </div>
         </div>
         <div className={classes.right}>

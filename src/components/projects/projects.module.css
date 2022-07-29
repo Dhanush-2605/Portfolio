@@ -10,7 +10,8 @@
   transform: scale(1.2);
 }
 .title {
-  color: #3500d3;
+  /* color: #3500d3; */
+  color: wheat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,7 +89,8 @@ image img {
 .flip_card_front {
   /* background-color: #bbb; */
   background-color: rgb(33, 31, 31);
-  color: #3500d3;
+  /* color: #3500d3; */
+  color: wheat;
   display: flex;
   align-items: center;
   flex-direction: column;

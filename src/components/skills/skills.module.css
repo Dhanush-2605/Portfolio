@@ -32,7 +32,9 @@
   padding: 10px;
 }
 .text h1 {
-  color: #3500d3;
+  /* color: #3500d3; */
+  /* color: #FAFA33; */
+  color: wheat;
   font-size: 40px;
   transition: transform 0.5s;
 }
