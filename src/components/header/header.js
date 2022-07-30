@@ -28,8 +28,8 @@ const NavBar = () => {
             data-aos-delay="100"
             data-aos-duration="1000"
           >
-            <NavLink to="/">
-              <a class="nav-link" href="#">
+            <NavLink to="/" style={{color:"wheat"}}>
+              <a class="nav-link" href="#" style={{color:"wheat"}}>
                 Home
               </a>
             </NavLink>
@@ -41,7 +41,7 @@ const NavBar = () => {
             data-aos-duration="1000"
           >
             <NavLink to="/projects">
-              <a class="nav-link" href="">
+              <a class="nav-link" href="" style={{color:"wheat"}}>
                 Projects
               </a>
             </NavLink>
@@ -54,7 +54,7 @@ const NavBar = () => {
             data-aos-duration="1000"
           >
             <NavLink to="/contact">
-              <a class="nav-link">Contact</a>
+              <a class="nav-link" style={{color:"wheat"}}>Contact</a>
             </NavLink>
           </div>
         </div>

@@ -19,7 +19,7 @@ const Details = () => {
 
     useEffect(() => {
       const typed = new Typed(el.current, {
-        strings: ["Dhanush","a MERN Stack Developer","exploring web3"], // Strings to display
+        strings: ["Dhanush","a web developer","exploring web3"], // Strings to display
         // Speed settings, try diffrent values untill you get good results
         startDelay: 300,
         typeSpeed: 100,
@@ -55,10 +55,10 @@ const Details = () => {
               standard dummy text ever since the 1500s, when an unknown printer
               took a galley of typ
             </p>
-            <Button style={{ backgroundColor: "#3500D3" }} size="sm">
+            <Button style={{ backgroundColor: "wheat",color:"yellow" }} size="sm">
               <a
                 href="#about"
-                style={{ textDecoration: "none", color: "white" }}
+                style={{ textDecoration: "none", color: "black" }}
               >
                 <img src="" alt="resume" />
               </a>

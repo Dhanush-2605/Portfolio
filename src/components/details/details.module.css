@@ -14,7 +14,6 @@
   align-items: center;
   flex-wrap: wrap;
 
-
   justify-content: space-between;
 
   margin-top: 100px;
@@ -23,22 +22,14 @@
 }
 .text_div {
   overflow: visible;
-  width: 60%;
-
+  width: 40%;
 
   margin-bottom: 100px;
-  color:wheat;
-
+  color: wheat;
 }
 
-.text_div h1 {
-  /* color: #3500d3; */
-  /* color: #FAFA33, */
-}
 .big_text {
   font-size: 60px;
-
-
 }
 .detail p {
   border-top: 2px solid gray;
@@ -49,7 +40,7 @@
 
 .image {
   border-radius: 22px;
-  
+
   box-shadow: 19px 19px 38px #afafaf, -19px -19px 38px #ffffff;
   margin-top: 0px;
   margin-bottom: 90px;
@@ -59,7 +50,8 @@
 }
 .text_div p {
   width: 100%;
-  color: white;
+
+  color: antiquewhite;
 }
 
 @media screen and (max-width: 841px) {
@@ -85,9 +77,11 @@
     margin-left: -65px;
   }
   .text_div {
-    width: 100vw;
+    width: 100%;
     margin-left: -65px;
+  }
 
-
+  .detail {
+    width: 90vw;
   }
 }

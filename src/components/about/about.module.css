@@ -110,6 +110,8 @@
 .detail p {
   font-weight: 400;
   font-size: 25px;
+  color: rgb(206, 188, 188);
+  
   /* font-style: italic; */
 }
 
