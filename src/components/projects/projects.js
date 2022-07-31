@@ -5,7 +5,7 @@ import classes from "./projects.module.css";
 
 const Projects = () => {
   return (
-    <Fragment>
+    <div className={classes.top}>
       <div
         className={classes.title}
         data-aos="fade-right"
@@ -57,7 +57,7 @@ const Projects = () => {
           })}
         </div>
       </div>
-    </Fragment>
+    </div>
   );
 };
 

@@ -39,6 +39,7 @@ alert {
   flex-wrap: wrap;
   /* background-color: #2C3531; */
   background-color: #282828;
+  height: 100vh;
 
   justify-content: space-around;
   align-items: center;

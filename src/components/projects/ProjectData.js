@@ -16,6 +16,7 @@ const ProjectDetails = [
     gitHub:"#",
     liveWebsite:"#"
   },
+ 
 ];
 
 export default ProjectDetails;

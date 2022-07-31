@@ -1,11 +1,9 @@
-.section {
-  /* padding: 50px; */
-}
+
 
 .container {
   font-family: "Roboto", sans-serif;
   /* background-color:rgb(216,216,216); */
-  background-color: #282828;
+  /* background-color: #282828; */
   padding: 100px;
   display: flex;
   flex-direction: column;

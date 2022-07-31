@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import classes from "./skills.module.css";
-
+import Bottom from "../Bottom/bottom";
 const Skills = () => {
   return (
     <Fragment>
@@ -71,7 +71,9 @@ const Skills = () => {
             </div>
           </div>
         </div>
+        <Bottom />
       </section>
+     
     </Fragment>
   );
 };
