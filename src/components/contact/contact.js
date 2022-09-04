@@ -1,28 +1,19 @@
-// import classes from "./contact.module.css";
 import classes from "./contact.module.css";
-import Button from "@mui/material/Button";
+
 import SendIcon from "@mui/icons-material/Send";
 import { useRef } from "react";
 
 import emailjs from "@emailjs/browser";
 
-import { useState } from "react";
 const Contact = () => {
   const nameRef = useRef();
   const emailRef = useRef();
   const aboutRef = useRef();
   const messageRef = useRef();
-  // let Responsive=false;
 
   const SubmitHandler = (event) => {
     event.preventDefault(event);
 
-    let obj = {
-      name: nameRef.current.value,
-      email: emailRef.current.value,
-      about: aboutRef.current.value,
-      message: messageRef.current.value,
-    };
     emailjs
       .sendForm(
         "service_sy0l09h",
@@ -43,8 +34,9 @@ const Contact = () => {
   };
 
   return (
-    <section>
-      <div className={classes.container}>
+    // <section>
+    <div className={classes.container}>
+      <div className={classes.wrapper}>
         <div className={classes.form_div}>
           <form onSubmit={SubmitHandler}>
             <div className={classes.align}>
@@ -57,6 +49,7 @@ const Contact = () => {
                   placeholder="Enter Name"
                   size="30"
                   type="text"
+                  autocomplete="off"
                 />
 
                 <label>Email</label>
@@ -67,6 +60,7 @@ const Contact = () => {
                   name="person_Email"
                   type="email"
                   placeholder="Enter Email"
+                  autocomplete="off"
                 />
 
                 <label>About You</label>
@@ -77,6 +71,7 @@ const Contact = () => {
                   size="30"
                   type="text"
                   placeholder="eg: a Developer"
+                  autocomplete="off"
                 />
 
                 <label>Message</label>
@@ -87,12 +82,13 @@ const Contact = () => {
                   rows="5"
                   cols="35"
                   placeholder="Hello...."
+                  autocomplete="off"
                 />
                 <div className={classes.Button}>
                   <div className={classes.button}>
                     <button>
                       <span className={classes.span}>Send</span>
-                      <SendIcon style={{ marginTop: "5px" }} />
+                      <SendIcon style={{ marginTop: "9px" }} />
                     </button>
                   </div>
                 </div>
@@ -112,7 +108,8 @@ const Contact = () => {
           ></iframe>
         </div>
       </div>
-    </section>
+    </div>
+    // </section>
   );
 };
 

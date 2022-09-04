@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.81eb42de.chunk.css",
+    "main.js": "/static/js/main.acf465d1.chunk.js",
+    "main.js.map": "/static/js/main.acf465d1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d966abd0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d966abd0.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.18cc511d.chunk.js": "/static/js/2.18cc511d.chunk.js",
+    "static/js/2.18cc511d.chunk.js.map": "/static/js/2.18cc511d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.81eb42de.chunk.css.map": "/static/css/main.81eb42de.chunk.css.map",
+    "static/js/2.18cc511d.chunk.js.LICENSE.txt": "/static/js/2.18cc511d.chunk.js.LICENSE.txt",
+    "static/media/Coder_img.37461588.jpg": "/static/media/Coder_img.37461588.jpg",
+    "static/media/D_Shop.7b5b6461.png": "/static/media/D_Shop.7b5b6461.png",
+    "static/media/crypto_coders.ba7238de.png": "/static/media/crypto_coders.ba7238de.png",
+    "static/media/expense_tracker.142f63b8.png": "/static/media/expense_tracker.142f63b8.png",
+    "static/media/weather_app.ddb93f67.png": "/static/media/weather_app.ddb93f67.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d966abd0.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.18cc511d.chunk.js",
+    "static/css/main.81eb42de.chunk.css",
+    "static/js/main.acf465d1.chunk.js"
+  ]
+}

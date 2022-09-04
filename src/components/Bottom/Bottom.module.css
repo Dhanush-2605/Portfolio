@@ -1,31 +1,25 @@
-/* body {
-  height: 100vh;
-} */
-
 .sticky_footer {
   position: sticky;
   top: 100%;
   bottom: 0%;
   padding: 40px;
-  /* background-color:#51373a;  */
-  /* background-color: #282828; */
-  background-color:  #000000;
+
+  background-color: #000000;
 
   color: white;
 }
 .connect {
   display: flex;
   align-items: center;
-  /* margin: auto; */
+
   flex-direction: column;
 }
 .connect a {
   padding: 30px;
-  /* margin: 30px; */
 }
 .connect p {
   margin: 30px;
 }
-.links{
+.links {
   display: flex;
 }

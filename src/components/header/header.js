@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import classes from "./header.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import CodeSharpIcon from "@mui/icons-material/CodeSharp";
 
@@ -18,7 +19,14 @@ const NavBar = () => {
 
               <CodeSharpIcon sx={{ fontSize: "50px" }} />
             </a> */}
-            <h2>Dhanush .</h2>
+            {/* <h2>Dhanush .</h2> */}
+            <div className={classes.imgdiv}>
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/711/711284.png"
+                style={{ color: "wheat", backgroundColor: "wheat" }}
+                alt="icon"
+              />
+            </div>
           </div>
         </div>
         <div className={classes.right}>
@@ -28,8 +36,8 @@ const NavBar = () => {
             data-aos-delay="100"
             data-aos-duration="1000"
           >
-            <NavLink to="/" style={{color:"wheat"}}>
-              <a class="nav-link" href="#" style={{color:"wheat"}}>
+            <NavLink to="/" style={{ color: "wheat" }}>
+              <a class="nav-link" href="#" style={{ color: "wheat" }}>
                 Home
               </a>
             </NavLink>
@@ -41,7 +49,7 @@ const NavBar = () => {
             data-aos-duration="1000"
           >
             <NavLink to="/projects">
-              <a class="nav-link" href="" style={{color:"wheat"}}>
+              <a class="nav-link" href="" style={{ color: "wheat" }}>
                 Projects
               </a>
             </NavLink>
@@ -54,7 +62,9 @@ const NavBar = () => {
             data-aos-duration="1000"
           >
             <NavLink to="/contact">
-              <a class="nav-link" style={{color:"wheat"}}>Contact</a>
+              <a class="nav-link" style={{ color: "wheat" }}>
+                Contact
+              </a>
             </NavLink>
           </div>
         </div>

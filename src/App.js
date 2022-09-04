@@ -3,7 +3,7 @@ import Contact from "./components/contact/contact";
 import { Fragment } from "react";
 import Details from "./components/details/Details";
 import Projects from "./components/projects/projects";
-import Bottom from "./components/Bottom/bottom";
+
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/layout";
 

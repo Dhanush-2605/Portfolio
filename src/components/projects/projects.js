@@ -1,5 +1,4 @@
-import React, { Fragment } from "react";
-import { Card, Button } from "react-bootstrap";
+import React from "react";
 import ProjectDetails from "./ProjectData";
 import classes from "./projects.module.css";
 
@@ -41,13 +40,19 @@ const Projects = () => {
                   </div>
 
                   <div className={classes.flip_card_back}>
+                  <div className={classes.content}>
                     <p>{data.content}</p>
+                    </div>
                     <div>
                       <button>
-                        <a href={data.liveWebsite}>Live Website</a>
+                        <a href={data.liveWebsite} target="_blank">
+                          Live Website
+                        </a>
                       </button>
                       <button>
-                        <a href={data.gitHub}>Source Code</a>
+                        <a href={data.gitHub} target="_blank">
+                          Source Code
+                        </a>
                       </button>
                     </div>
                   </div>
