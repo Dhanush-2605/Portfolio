@@ -5,6 +5,7 @@ import About from "../about/about";
 import Typed from "typed.js";
 import DownloadIcon from "@mui/icons-material/Download";
 import { useEffect, useRef } from "react";
+import Dhanush_Resume from "../Assests/Dhanush_Resume.pdf"
 
 import { Button } from "react-bootstrap";
 
@@ -48,7 +49,7 @@ const Details = () => {
             >
               <DownloadIcon style={{ color: "black" }} />
               <a
-                href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2alUglBVQjgog5jcflWEhl-hIEFmBHrsuU2oRbnTyYA&s"
+                href={Dhanush_Resume}
                 style={{ textDecoration: "none", color: "black" }}
                 download
               >
